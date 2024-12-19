@@ -30,6 +30,7 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 echo hello PostgreSQL
+<<<<<<< HEAD
 [ -d "$HOME/bin" ]
 [ -d "$HOME/.local/bin" ]
 PATH="$HOME/.local/bin:$PATH"
@@ -72,3 +73,6 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git
 git remote add origin https://github.com/flash20230522/learn-relational-databases-by-building-a-mario-database.git
+=======
+echo hello PostgreSQL
+>>>>>>> origin/main
