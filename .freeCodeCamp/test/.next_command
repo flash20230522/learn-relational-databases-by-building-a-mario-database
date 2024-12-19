@@ -76,3 +76,6 @@ git remote add origin https://github.com/flash20230522/learn-relational-database
 =======
 echo hello PostgreSQL
 >>>>>>> origin/main
+git push origin main
+push -u origin main
+git push -u origin main
